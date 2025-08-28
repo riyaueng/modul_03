@@ -3,7 +3,7 @@ import Footer from "./components/footer/Footer"
 import Home from "./pages/home/Home"
 
 // # Wie starten wir eine React-App
-// 1. npm create vite@lates
+// 1. npm create vite@latest
 // 2. Name aussuchen oder mit . im selben Ordner bleiben
 // 3. Eintippen um weiter zu machen
 // 4. React und TS+SWC auswählen

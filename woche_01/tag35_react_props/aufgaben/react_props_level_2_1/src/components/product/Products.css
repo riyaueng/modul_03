@@ -1,0 +1,23 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.product img {
+  max-width: 20rem;
+}
+
+.product h3 {
+  color: #f04668;
+}
+
+.product button {
+  background-color: #f04668;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 5rem;
+}
