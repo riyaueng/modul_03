@@ -1,0 +1,38 @@
+.faq_section {
+  background-color: darkslategray;
+  color: white;
+  padding: 0 1rem;
+}
+
+.faq_box {
+  background-color: darkslategray;
+  color: white;
+}
+
+.question {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
+/* --- Style wird mit React verändert! */
+/* .faq1 {
+  border-bottom: 1px solid white;
+} */
+
+.btn_faq {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border: none;
+  background-color: transparent;
+}
+
+.answer {
+  font-weight: 200;
+  text-align: left;
+  padding: 0 0.5rem 1.4rem;
+}
