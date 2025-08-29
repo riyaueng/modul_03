@@ -28,7 +28,7 @@ export default function FaqSection() {
       <section className="faq_section">
         <div className="faq_box faq1" style={boxBorder}>
           <div className="question">
-            <p>Why ist React great?</p>
+            <p>Why is React great?</p>
             <button onClick={displayAnswer1} className="btn_faq">
               {/* Tenary-Operator Abfrage für Zustandswechsel nutzen */}
               {answer1 ? "–" : "+"}

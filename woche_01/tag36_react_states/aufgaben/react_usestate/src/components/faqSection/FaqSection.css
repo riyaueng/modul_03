@@ -1,7 +1,9 @@
 .faq_section {
+  width: 90vw;
   background-color: darkslategray;
   color: white;
   padding: 0 1rem;
+  margin: 0 auto;
 }
 
 .faq_box {
