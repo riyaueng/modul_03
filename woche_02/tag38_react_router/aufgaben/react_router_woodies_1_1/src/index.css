@@ -1,0 +1,24 @@
+:root {
+  font-family: var(--base-font), Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --base-font: "Nunito-Italic-VariableFont_wght", "sans-serif";
+  --italic-font: "Nunito-Italic-VariableFont_wght", "sans-serif";
+  --p-font-color: #313235;
+  --s-font-color: #222222;
+  --t-font-color: #8d8d8d;
+  --btn-color: #daa520;
+  --bg-color: #f9bdbd;
+  --footer-bg-color: #f1f1f1;
+}
+
+@font-face {
+  font-family: "Nunito-VariableFont_wght", "sans-serif";
+  src: url("../public/fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-Italic-VariableFont_wght", "sans-serif";
+  src: url("../public/fonts/Nunito-Italic-VariableFont_wght.ttf");
+}
