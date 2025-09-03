@@ -1,0 +1,9 @@
+.section_home {
+  position: absolute;
+}
+
+.div_bg_color {
+  position: relative;
+  height: 100vh;
+  background-color: var(--bg-color);
+}

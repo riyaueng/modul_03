@@ -1,24 +1,51 @@
 :root {
   font-family: var(--base-font), Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-size: 16px;
+  color: var(--p-font-color);
 
-  --base-font: "Nunito-Italic-VariableFont_wght", "sans-serif";
+  --base-font: "Nunito-VariableFont_wght", "sans-serif";
   --italic-font: "Nunito-Italic-VariableFont_wght", "sans-serif";
   --p-font-color: #313235;
-  --s-font-color: #222222;
-  --t-font-color: #8d8d8d;
+  --s-font-color: #3e3f43;
+  --t-font-color: #222222;
+  --q-font-color: #8d8d8d;
   --btn-color: #daa520;
   --bg-color: #f9bdbd;
   --footer-bg-color: #f1f1f1;
 }
 
 @font-face {
-  font-family: "Nunito-VariableFont_wght", "sans-serif";
+  font-family: "Nunito-VariableFont_wght";
   src: url("../public/fonts/Nunito-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: "Nunito-Italic-VariableFont_wght", "sans-serif";
+  font-family: "Nunito-Italic-VariableFont_wght";
   src: url("../public/fonts/Nunito-Italic-VariableFont_wght.ttf");
+}
+
+a {
+  text-decoration: none;
+  color: var(--t-font-color);
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  color: var(--s-font-color);
+}
+
+h3 {
+  font-size: 4.5rem;
+  color: var(--t-font-color);
+  opacity: 0.1;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.5rem;
 }

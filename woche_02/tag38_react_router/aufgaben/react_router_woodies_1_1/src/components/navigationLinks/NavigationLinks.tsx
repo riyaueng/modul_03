@@ -8,7 +8,7 @@ interface NavigatonsLinksProps {
 export default function NavigationLinks(props: NavigatonsLinksProps) {
   return (
     <>
-      <NavLink to={props.to}>{props.text}</NavLink>
+      <NavLink to={props.to}>{props.text} </NavLink>
     </>
   )
 }

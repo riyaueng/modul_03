@@ -1,4 +1,5 @@
 import NavigationLinks from "../navigationLinks/NavigationLinks"
+import "./Header.css"
 
 export default function Header() {
   return (

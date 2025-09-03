@@ -1,4 +1,4 @@
-import React from "react"
+import "./SectionDescription.css"
 
 interface DescriptionProps {
   img: string
