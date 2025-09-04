@@ -1,4 +1,4 @@
-import Navigation from "../navigation"
+import Navigation from "../Navigation"
 
 export default function Header() {
   return (
@@ -8,6 +8,7 @@ export default function Header() {
         <Navigation to="/about" text="About"></Navigation>
         <Navigation to="/contact" text="Contact"></Navigation>
         <Navigation to="/blog" text="Blog"></Navigation>
+        <Navigation to="/pokemon" text="Pokémon"></Navigation>
       </nav>
     </header>
   )

@@ -8,7 +8,7 @@ export default function BlogOverview() {
       <p>Willkommen auf meiner Seite</p>
       <ul>
         {blogData.map((entry) => (
-          <li>
+          <li key={entry.id}>
             <Link to={`/blog/${entry.slug}`}>{entry.title}</Link>
           </li>
         ))}
