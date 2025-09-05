@@ -1,5 +1,5 @@
 import React from "react"
-import { Navigate, useParams } from "react-router"
+import { useParams } from "react-router"
 import blogData from "../blockData.json"
 
 export default function BlogDetail() {
@@ -24,7 +24,6 @@ export default function BlogDetail() {
         <h1>{blogEntry.title}</h1>
         <p>{blogEntry.content}</p>
       </div>
-      <Navigate to={"/"} />
     </>
   )
 }

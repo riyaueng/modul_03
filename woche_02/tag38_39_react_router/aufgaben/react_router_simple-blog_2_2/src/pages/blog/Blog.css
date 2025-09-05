@@ -1,0 +1,13 @@
+.section_blog {
+  width: 70rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+}
+
+.box_blog_article img {
+  width: 17.5rem;
+  height: 12.5rem;
+}

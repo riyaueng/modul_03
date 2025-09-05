@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: var(--base-font), Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--font-color);
+
+  --base-font: "Roboto-VariableFont", "sans-serif";
+  --font-color: #0d4625;
+  --btn-color: #219653;
+}
+
+@font-face {
+  font-family: "Roboto-VariableFont";
+  src: url("../public/Roboto-VariableFont.ttf");
+}

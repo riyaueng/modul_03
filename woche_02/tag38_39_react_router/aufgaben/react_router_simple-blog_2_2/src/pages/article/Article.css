@@ -1,0 +1,43 @@
+.section_article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 6.5rem;
+}
+
+.article_img {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 3rem;
+}
+
+.article_img img {
+  width: 70rem;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.article_text {
+  width: 56rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper_title {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 10rem 3rem 0;
+}
+
+.wrapper_title h3 {
+  font-size: 1.5rem;
+}
+
+.article_info {
+  line-height: 2.2rem;
+}
+
+.article_info p:last-of-type {
+  font-weight: 700;
+}
