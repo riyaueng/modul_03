@@ -1,0 +1,9 @@
+.car_card {
+  background-color: rgb(214, 225, 236);
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

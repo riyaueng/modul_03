@@ -1,1 +1,9 @@
+.box_blog_article img {
+  width: 17.5rem;
+  height: 12.5rem;
+  margin-bottom: 1rem;
+}
 
+.box_blog_article h3 {
+  margin-bottom: 1.5rem;
+}

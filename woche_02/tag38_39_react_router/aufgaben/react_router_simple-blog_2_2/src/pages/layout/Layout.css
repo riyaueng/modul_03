@@ -1,0 +1,8 @@
+.homepage_bg {
+  background-image: url("../../../public/header_blog.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 30rem;
+  margin-bottom: 5rem;
+}

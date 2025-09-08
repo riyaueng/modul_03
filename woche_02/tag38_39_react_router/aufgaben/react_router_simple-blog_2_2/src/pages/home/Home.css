@@ -1,3 +1,8 @@
+.section_home {
+  width: 70rem;
+  margin: 0 8rem;
+}
+
 .section_home h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
