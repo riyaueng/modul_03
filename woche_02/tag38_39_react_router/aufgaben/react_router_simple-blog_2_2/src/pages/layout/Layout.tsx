@@ -1,9 +1,10 @@
-import { Outlet } from "react-router"
+import { Outlet, useLocation } from "react-router"
 import Header from "../../components/header/Header"
 import "./Layout.css"
 
 export default function Layout() {
-  const onHomePage = window.location.pathname === "/"
+  const location = useLocation()
+  const onHomePage = location.pathname === "/"
   console.log(onHomePage)
   return (
     <>
