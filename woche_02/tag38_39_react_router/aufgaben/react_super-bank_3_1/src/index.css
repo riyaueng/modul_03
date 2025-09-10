@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "RobotoSerif";
+  src: url("../public/RobotoSerif-VariableFont.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-robotSerif: RobotoSerif, "serif";
+}
